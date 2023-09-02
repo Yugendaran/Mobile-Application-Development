@@ -29,7 +29,7 @@ Step 7: Save and run the application.
 ```
 /*
 Program to print the text “Hello World”.
-Developed by: YUGENDARAN . G
+Developed by: YUGENDARAN.G
 Registeration Number :212221220063
 */
 ```
