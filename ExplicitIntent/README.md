@@ -5,10 +5,10 @@
 
 To create a two screens , first screen will take one number input from user. After click on Factorial button, second screen will open and it should display factorial of the same number using Explicit Intents.
 
-EQUIPMENTS REQUIRED:
+## EQUIPMENTS REQUIRED:
 Latest Version Android Studio
 
-ALGORITHM:
+## ALGORITHM:
 Step 1: Open Android Studio and then click on File -> New -> New project.
 
 Step 2: Then type the Application name as “ExplicitIntent″ and click Next.
@@ -27,13 +27,13 @@ Step 8: Use Explicit intent in MainActivity2 file to get the result.
 
 Step 9: Save and run the application.
 
-PROGRAM:
+## PROGRAM:
 /*
 Program to print the text “ExplicitIntent”.
 Developed by: NAADIRA SAHAR N
 Registeration Number : 212221220034
 */
-activiity_main.xml:
+# activiity_main.xml:
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -103,7 +103,7 @@ activiity_main.xml:
         android:layout_marginStart="150dp"
         tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
-MainActivity.java:
+# MainActivity.java:
 package com.example.explicitintent;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -147,7 +147,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
-activity_main2.xml:
+# activity_main2.xml:
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -186,7 +186,7 @@ activity_main2.xml:
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.407" />
 </androidx.constraintlayout.widget.ConstraintLayout>
-MainActivity2.java:
+# MainActivity2.java:
 package com.example.explicitintent;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -206,19 +206,9 @@ public class MainActivity2 extends AppCompatActivity {
         textView.setText(message);
     }
 }
-OUTPUT:
-fact
+## OUTPUT:
 
-factor
 
-facto
-
-factori
-
-factora
-
-factorial
-
-RESULT:
+## RESULT:
 Thus a Simple Android Application create a Explicit Intents using Android Studio is developed and executed successfully.
 
