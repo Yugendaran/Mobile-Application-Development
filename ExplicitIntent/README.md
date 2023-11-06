@@ -2,13 +2,14 @@
 
 
 ## AIM:
-
+```
 To create a two screens , first screen will take one number input from user. After click on Factorial button, second screen will open and it should display factorial of the same number using Explicit Intents.
-
+```
 ## EQUIPMENTS REQUIRED:
 Latest Version Android Studio
 
 ## ALGORITHM:
+```
 Step 1: Open Android Studio and then click on File -> New -> New project.
 
 Step 2: Then type the Application name as “ExplicitIntent″ and click Next.
@@ -26,17 +27,19 @@ Step 7: Design layout in activity_main2.xml.
 Step 8: Use Explicit intent in MainActivity2 file to get the result.
 
 Step 9: Save and run the application.
-
+```
 ## PROGRAM:
+```
 /*
 Program to print the text “ExplicitIntent”.
-Developed by: NAADIRA SAHAR N
-Registeration Number : 212221220034
+Developed by: G.YUGENDARAN 
+Registeration Number : 212221220063
 */
+```
 # activiity_main.xml:
+```
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -48,10 +51,9 @@ Registeration Number : 212221220034
         android:layout_width="317dp"
         android:layout_height="38dp"
         android:layout_marginTop="36dp"
-        android:fontFamily="sans-serif-medium"
-        android:text="@string/factorial_calculator"
+        android:text="FACTORIAL CALCULATOR"
         android:textAlignment="center"
-        android:textColor="@color/purple_500"
+        android:textColor="@color/purple_700"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -59,52 +61,50 @@ Registeration Number : 212221220034
 
     <TextView
         android:id="@+id/text1"
-        android:layout_width="181dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="64dp"
+        android:layout_width="156dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="76dp"
         android:layout_marginTop="240dp"
-        android:fontFamily="sans-serif-light"
-        android:text="@string/enter_a_number"
-        android:textColor="@color/purple_500"
-        android:textSize="24sp"
+        android:text="Enter a Number"
+        android:textColor="@color/black"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/n1"
-        android:layout_width="95dp"
+        android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_alignEnd="@+id/text1"
-        android:layout_marginTop="236dp"
-        android:layout_marginEnd="60dp"
-        android:autofillHints=""
+        android:layout_alignRight="@+id/text1"
+        android:layout_marginTop="224dp"
+        android:layout_marginEnd="120dp"
         android:textColor="#EA80FC"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn1"
-        android:layout_width="142dp"
+        android:layout_width="108dp"
         android:layout_height="45dp"
         android:layout_marginBottom="360dp"
         android:background="#2C34CF"
-        android:fontFamily="sans-serif-medium"
-        android:text="@string/calculate"
+        android:text="Calculate"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />    
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/resum"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="150dp"
-        tools:ignore="MissingConstraints" />
+        android:layout_marginLeft="150dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+```
 # MainActivity.java:
-package com.example.explicitintent;
+```
+package com.example.factorialcalculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
@@ -113,8 +113,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
-import com.example.explicitintent.MainActivity2;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -147,10 +145,11 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
+```
 # activity_main2.xml:
+```
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -159,34 +158,35 @@ public class MainActivity extends AppCompatActivity {
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="132dp"
-        android:layout_height="40dp"
-        android:fontFamily="sans-serif-smallcaps"
-        android:text="@string/resulT"
-        android:textColor="@color/purple_500"
+        android:layout_width="137dp"
+        android:layout_height="47dp"
+        android:text="RESULT : "
+        android:textColor="@color/black"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintHorizontal_bias="0.167"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.413" />
+        app:layout_constraintVertical_bias="0.425" />
 
     <TextView
         android:id="@+id/reslt"
-        android:layout_width="187dp"
-        android:layout_height="47dp"
-        android:text="@string/_00_00"
-        android:textColor="@color/purple_500"
+        android:layout_width="198dp"
+        android:layout_height="59dp"
+        android:text="00.00"
+        android:textColor="#EA80FC"
         android:textSize="38sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintHorizontal_bias="0.924"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.407" />
+        app:layout_constraintVertical_bias="0.433" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+```
 # MainActivity2.java:
+```
 package com.example.explicitintent;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -206,9 +206,13 @@ public class MainActivity2 extends AppCompatActivity {
         textView.setText(message);
     }
 }
+```
 ## OUTPUT:
-
+![image](https://github.com/Yugendaran/Mobile-Application-Development/assets/128135616/1b1e4e60-4e37-48ee-963d-2ae6c85d54eb)
+![image](https://github.com/Yugendaran/Mobile-Application-Development/assets/128135616/d8bea1d9-b93c-4471-90b5-902245ac3cfe)
+![image](https://github.com/Yugendaran/Mobile-Application-Development/assets/128135616/d207ef4a-93aa-42a9-86c7-03efb995babb)
 
 ## RESULT:
+```
 Thus a Simple Android Application create a Explicit Intents using Android Studio is developed and executed successfully.
-
+```
