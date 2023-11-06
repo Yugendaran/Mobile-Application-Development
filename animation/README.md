@@ -2,15 +2,12 @@
 
 
 ## AIM:
-```
 To develop a application to add animation to imageview,move,blink,fade,clockwise,zoom,slide operation using Android Studio.
-```
+
 ## EQUIPMENTS REQUIRED:
-```
 Android Studio(Latest Version)
-```
+
 ## ALGORITHM:
-```
 Step 1: Open Android Studio and then click on File -> New -> New project.
 
 Step 2: Then type the Application name as HelloWorld and click Next.
@@ -24,14 +21,12 @@ Step 5: Design layout in activity_main.xml.
 Step 6: Display message give in MainActivity file.
 
 Step 7: Save and run the application.
-```
+
 ## PROGRAM:
 ```
-/*
 Program to display animation operation”.
 Developed by:G.YUGENDARAN
 Registeration Number :212221220063
-*/
 ```
 # activity_main.xml :
 ```
@@ -334,6 +329,4 @@ public class MainActivity extends AppCompatActivity {
 ![image](https://github.com/Yugendaran/Mobile-Application-Development/assets/128135616/2e9431bf-9658-431b-99ad-e3f7ef0db9b6)
 
 ## RESULT
-```
 Thus, to develop a application to add animation to imageview,move,blink,fade,clockwise,zoom,slide operation using Android Studio has been executed successfully.
-```
