@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ## OUTPUT
-![image](https://github.com/Yugendaran/Mobile-Application-Development/assets/128135616/00f81530-d6e2-4a6a-8452-95b1a0f41f1b)
+![image](https://github.com/Yugendaran/Mobile-Application-Development/assets/128135616/d03749f3-9454-49c1-9ad1-e3d8b9c09fbd)
 
 ![image](https://github.com/Yugendaran/Mobile-Application-Development/assets/128135616/8a52428f-9a2e-4076-9710-8144657c2612)
 
