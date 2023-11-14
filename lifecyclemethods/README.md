@@ -140,7 +140,8 @@ public class MainActivity extends AppCompatActivity {
 
 
 ## onStart()
-![image](https://github.com/Yugendaran/Mobile-Application-Development/assets/128135616/52e57eb6-adf0-40f5-adff-45f995264fbf)
+![image](https://github.com/Yugendaran/Mobile-Application-Development/assets/128135616/91bb271e-3cf6-4f44-98a1-f6904c3d4e9a)
+
 
 
 ## onCreate()
