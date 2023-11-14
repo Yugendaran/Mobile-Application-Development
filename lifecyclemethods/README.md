@@ -33,12 +33,16 @@ Display message give in MainActivity file.
 ### Step 7: 
 Save and run the application.
 
+
+
 ## PROGRAM:
 ```
 Program to print the text “Hello World”.
 Developed by: YUGENDARAN.G
 Registeration Number :212221220063
 ```
+
+
 ## MainActivity.java:-
 ```
 package com.example.helloworld;
@@ -103,6 +107,8 @@ public class MainActivity extends AppCompatActivity {
 }
 
 ```
+
+
 ## Activity_main.xml:-
 ```
 <?xml version="1.0" encoding="utf-8"?>
