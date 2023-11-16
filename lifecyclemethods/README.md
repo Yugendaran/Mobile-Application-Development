@@ -150,7 +150,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 ## onPause()
-![image](https://github.com/NaveenKumar-008/Mobile-Application-Development/assets/128135244/65590a7f-907f-4322-a343-e0e9dfb07f04)
+![image](https://github.com/Yugendaran/Mobile-Application-Development/assets/128135616/a9c876d7-11d6-461b-b52e-c4089bbdff57)
 
 
 ## onResume()
