@@ -1,6 +1,6 @@
 # EX NO : 01  LifeCycles Methods in Android Studio 
 
-## DATE : 14|08|2023 
+## DATE :  14/08/2023
 
 ## AIM:
 
