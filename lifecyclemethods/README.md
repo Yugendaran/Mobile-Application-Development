@@ -158,11 +158,11 @@ public class MainActivity extends AppCompatActivity {
 
 
 ## onDestroy()
-![image](https://github.com/NaveenKumar-008/Mobile-Application-Development/assets/128135244/832d0445-3278-48e4-b718-7f0c030f73d1)
+![image](https://github.com/Yugendaran/Mobile-Application-Development/assets/128135616/0548f65b-10fd-48d2-ad32-4b17e603194f)
 
 
 ## onStop()
-![image](https://github.com/NaveenKumar-008/Mobile-Application-Development/assets/128135244/3e74dfc3-82a2-4c4e-86f4-1361d8b499ed)
+![image](https://github.com/Yugendaran/Mobile-Application-Development/assets/128135616/21a84e4e-e569-4af4-aaaf-52a3ad0dcd67)
 
 
 ## RESULT:
