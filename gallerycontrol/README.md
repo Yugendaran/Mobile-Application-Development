@@ -1,14 +1,13 @@
 # Ex.No:8 To create a gallery control using android studio to display images or photos.
 
+## DATE : 16/10/2023
 
 ## AIM:
-```
 To create a gallery control using android studio to display images or photos.
-```
+
 ## EQUIPMENTS REQUIRED:
-```
 Latest Version Android Studio
-```
+
 ## ALGORITHM:
 ```
 Step 1: Open Android Studio and then click on File -> New -> New project.
@@ -28,12 +27,11 @@ Step 7: Save and run the application.
 
 ## PROGRAM:
 ```
-/*
 Program to print the text “GalleryControl”.
 Developed by:G.YUGENDARAN 
 Registeration Number :212221220063
-*/
 ```
+
 # activity_main.xml :
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -157,7 +155,7 @@ public class CustomizedGalleryAdapter extends BaseAdapter {
 }
 ```
 
-## OUTPUT
+## OUTPUT:
 ![image](https://github.com/Yugendaran/Mobile-Application-Development/assets/128135616/cee57e30-da01-4062-a99a-d26b01393e90)
 
 ![image](https://github.com/Yugendaran/Mobile-Application-Development/assets/128135616/b5212872-1ca9-465d-ab3f-57151f5b29df)
