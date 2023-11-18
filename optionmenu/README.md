@@ -1,5 +1,6 @@
 # Ex.No:10 To create a option menu to display menu items.
 
+## DATE : 28/10/2023
 
 ## AIM:
 
@@ -28,11 +29,10 @@ Step 7: Save and run the application.
 
 ## PROGRAM:
 ```
-/*
 Program to print the text “optionmenu”.
 Developed by: YUGENDARAN.G
 Registeration Number : 212221220063
-*/
+
 ```
 ## activity_main.xml :
 ```
@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-## RESULT
+## RESULT:
 Thus a Simple Android Application to create a option menu to display menu items using Android Studio is developed and executed successfully.
 
 
