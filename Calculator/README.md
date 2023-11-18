@@ -1,5 +1,7 @@
 # Ex.No:9 Develop a simple calculator using android studio.
 
+## DATE : 21/10/2023 
+
 ## AIM:
 To develop a program to develop a simple calculator in Android Studio.
 
@@ -272,12 +274,13 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-## OUTPUT
+## OUTPUT:
 ![image](https://github.com/Yugendaran/Mobile-Application-Development/assets/128135616/aa67f27f-2e50-4f6d-ae83-8621a8926296)
 
 ![image](https://github.com/Yugendaran/Mobile-Application-Development/assets/128135616/76a97c5a-6d42-4156-9cfa-3e6a27b17a04)
 
-![image](https://github.com/Yugendaran/Mobile-Application-Development/assets/128135616/c9a6e6af-a1d8-4b39-8ce0-e45d8da4c95d)
+![image](https://github.com/Yugendaran/Mobile-Application-Development/assets/128135616/0563c3e3-eb99-4d5c-9600-06a6c2968df4)
 
-## RESULT
+
+## RESULT:
 Thus a Simple Android Application develop a program to create simple calculator in Android Studio is developed and executed successfully.
