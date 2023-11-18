@@ -1,15 +1,14 @@
 
 # Ex.No:5 Create Your Own Content Providers to get Contacts details.
 
+## DATE : 16/09/2023
 
 ## AIM:
-```
 To create your own content providers to get contacts details using Android Studio.
-```
+
 ## EQUIPMENTS REQUIRED:
-```
 Android Studio(Latest Version)
-```
+
 ## ALGORITHM:
 ```
 Step 1: Open Android Stdio and then click on File -> New -> New project.
@@ -28,11 +27,9 @@ Step 7: Save and run the application.
 ```
 ## PROGRAM:
 ```
-/*
 Program to print the text create your own content providers to get contacts details.
 Developed by:G.YUGENDARAN 
 Registeration Number :212221220063
-*/
 ```
 # AndroidManifest.xml : 
 ```
