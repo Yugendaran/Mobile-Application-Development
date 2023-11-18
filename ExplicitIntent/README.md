@@ -1,5 +1,6 @@
 # Ex.No:4 To create a two screens , first screen will take one number input from user. After click on Factorial button, second screen will open and it should display factorial of the same number using Explicit Intents.
 
+## DATE : 09/09/2023
 
 ## AIM:
 To create a two screens , first screen will take one number input from user. After click on Factorial button, second screen will open and it should display factorial of the same number using Explicit Intents.
@@ -29,12 +30,11 @@ Step 9: Save and run the application.
 ```
 ## PROGRAM:
 ```
-/*
 Program to print the text “ExplicitIntent”.
 Developed by: G.YUGENDARAN 
 Registeration Number : 212221220063
-*/
 ```
+
 # activiity_main.xml:
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -214,6 +214,4 @@ public class MainActivity2 extends AppCompatActivity {
 ![image](https://github.com/Yugendaran/Mobile-Application-Development/assets/128135616/d207ef4a-93aa-42a9-86c7-03efb995babb)
 
 ## RESULT:
-```
 Thus a Simple Android Application create a Explicit Intents using Android Studio is developed and executed successfully.
-```
