@@ -1,15 +1,14 @@
 
 # Ex.No:7 Develop an android application to display the place name with image using list view in android studio.
 
+## DATE : 09/10/2023
 
 ## AIM:
-```
 To create and develop the application to display the place name with image using list view in android studio
-```
+
 ## EQUIPMENTS REQUIRED:
-```
 Android Studio(Latest Version)
-```
+
 ## ALGORITHM:
 ```
 Step 1: Open Android Stdio and then click on File -> New -> New project.
@@ -28,11 +27,9 @@ Step 7: Save and run the application.
 ```
 ## PROGRAM:
 ```
-/*
 Program to print the list of item.
 Developed by:G.YUGENDARAN 
 Registeration Number :212221220063
-*/
 ```
 # activity_main.xml :
 ```
@@ -206,12 +203,10 @@ public class MyListAdapter extends ArrayAdapter<String> {
 }
 ```
 
-## OUTPUT
+## OUTPUT:
 ![image](https://github.com/Yugendaran/Mobile-Application-Development/assets/128135616/689ca351-d9ae-4fac-a13c-290e09b0a1b6)
 
 ![image](https://github.com/Yugendaran/Mobile-Application-Development/assets/128135616/76fcc62e-c1e1-4a3f-ad06-ecb7ae73284e)
 
-## RESULT
-```
+## RESULT:
 Thus a Simple Android Application to create and develop the application to display the place name with image using list view in android studio is developed and executed successfully.
-```
