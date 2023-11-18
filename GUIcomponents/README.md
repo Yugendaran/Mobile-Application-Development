@@ -1,6 +1,7 @@
 # Ex.No: 2 To develop an application that uses GUI Components with Fonts and Colors. 
 Note: Create button for colors and fonts while clicking color or font button should change 
 
+## DATE : 21/08/2023
 
 ## AIM:
 
